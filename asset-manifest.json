@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/DozeFitnessClub/static/css/main.b3354cc1.css",
+    "main.js": "/DozeFitnessClub/static/js/main.6750a6c7.js",
+    "static/js/787.50486bc7.chunk.js": "/DozeFitnessClub/static/js/787.50486bc7.chunk.js",
+    "static/media/reason2.jpg": "/DozeFitnessClub/static/media/reason2.e92eb3098a64a7ba9950.jpg",
+    "static/media/t-image1.jpg": "/DozeFitnessClub/static/media/t-image1.e2ece99e7207a2024a7c.jpg",
+    "static/media/t-image2.jpg": "/DozeFitnessClub/static/media/t-image2.64b3132c21d7b1b5056a.jpg",
+    "static/media/reason1.jpg": "/DozeFitnessClub/static/media/reason1.c5cd186957cfde1f6284.jpg",
+    "static/media/reason3.jpg": "/DozeFitnessClub/static/media/reason3.c97f3dfdd94f1614e0c1.jpg",
+    "static/media/hero_image.png": "/DozeFitnessClub/static/media/hero_image.e19ac0c6b1009c7280f5.png",
+    "static/media/reason4.jpg": "/DozeFitnessClub/static/media/reason4.a804cb2431b2d5eee94a.jpg",
+    "static/media/t-image3.jpg": "/DozeFitnessClub/static/media/t-image3.45095bde1d16079efa9f.jpg",
+    "static/media/hero_image_back.png": "/DozeFitnessClub/static/media/hero_image_back.9f54bfba33048f4ca688.png",
+    "static/media/logo.png": "/DozeFitnessClub/static/media/logo.ba72626ac15d75d0be8c.png",
+    "index.html": "/DozeFitnessClub/index.html",
+    "main.b3354cc1.css.map": "/DozeFitnessClub/static/css/main.b3354cc1.css.map",
+    "main.6750a6c7.js.map": "/DozeFitnessClub/static/js/main.6750a6c7.js.map",
+    "787.50486bc7.chunk.js.map": "/DozeFitnessClub/static/js/787.50486bc7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b3354cc1.css",
+    "static/js/main.6750a6c7.js"
+  ]
+}
