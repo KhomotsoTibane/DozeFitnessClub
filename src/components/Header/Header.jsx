@@ -10,7 +10,7 @@ const Header = () => {
   return (
     <header>
         <img src={Logo} alt="logo" className="logo" />
-        {!toggleMenu && mobile ? (<AiOutlineMenu onClick={()=> setToggleMenu(true)} style={{width:'2rem', height:'2rem', background:'var(--appColor)', color:'white', borderRadius:'3px'}}/>) : 
+        {toggleMenu===false && mobile===true ? (<AiOutlineMenu onClick={()=> setToggleMenu(true)} style={{width:'2rem', height:'2rem', background:'var(--appColor)', color:'white', borderRadius:'3px'}}/>) : 
         <ul className="header-links">
           <li onClick={()=> setToggleMenu(false)}><a href="#hero">Home</a></li>
           <li onClick={()=> setToggleMenu(false)}><a href="#programs">Programs</a></li>
