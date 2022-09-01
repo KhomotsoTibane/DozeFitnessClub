@@ -1,12 +1,22 @@
-import React, { useState } from "react"
+import React, { useState, useEffect } from "react"
 import "./Header.css"
 import Logo from "../../assets/logo.png"
 import {AiOutlineMenu} from "react-icons/ai"
 
 const Header = () => {
 
-  const mobile = window.innerWidth <= 768 ? true : false
+  const [mobile, setMobile] = useState(false);
   const [toggleMenu, setToggleMenu]= useState(false)
+
+  useEffect(() => {
+    if (window.innerWidth <= 768){
+      setMobile(true)
+    }else{
+      setMobile(false)
+    }
+  }, [])
+  
+
   return (
     <header>
         <img src={Logo} alt="logo" className="logo" />
