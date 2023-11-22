@@ -4,7 +4,7 @@ import {BsInstagram, BsFacebook, BsTwitter} from "react-icons/bs"
 
 const Footer = () => {
   return (
-    <footer>
+    <footer id="footer">
       <hr />
       <div className="container">
         <div className="social-links">

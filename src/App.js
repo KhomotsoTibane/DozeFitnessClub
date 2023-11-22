@@ -6,6 +6,7 @@ import Programs from './components/Programs/Programs'
 import Reasons from './components/Reasons/Reasons'
 import Testimonials from './components/Testimonials/Testimonials'
 import Footer from './components/Footer/Footer'
+import ScrollToTopButton from './components/ScrollToTopButton'
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Testimonials/>
       <JoinUs/>
       <Footer/>
+      <ScrollToTopButton/>
     </div>
   )
 }

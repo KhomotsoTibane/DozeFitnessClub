@@ -15,8 +15,8 @@ function Testimonials() {
     <section id="testimonials" className="testimonials">
         <div className="testimonials-left">
             <span>Testimonials</span>
-            <span className="stroke-text">What they</span>
-            <span>Say about us</span>
+            <span className="stroke-text">What our</span>
+            <span>Clients Say about us</span>
             <motion.span key={selected} initial={{opacity:0, x:-100}} animate={{opacity:1, x:0}} exit={{opacity:0, x:100}} transition={transition}
             >{testimonialsData[selected].review}</motion.span>
             <div>
