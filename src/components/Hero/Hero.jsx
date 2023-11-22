@@ -51,7 +51,7 @@ const Hero = () => {
 
             <div className="figures">
                 <div>
-                    <span><NumberCounter end={50} start={30} delay='3' preFix='+' /></span>
+                    <span><NumberCounter end={25} start={10} delay='3' preFix='+' /></span>
                     <span>Expert coaches</span>
                 </div>
                 <div>
@@ -65,12 +65,12 @@ const Hero = () => {
             </div>
 
             <div className="hero-buttons">
-                <button className="btn">Get Started</button>
+                <button className="btn"><a href="#footer">Get Started</a></button>
                 <button className="btn">Learn More</button>
             </div>
         </div>
         <div className="hero-right">
-            <button className="btn">Join Now</button>
+        <button className="btn"><a href="#footer" style={{color:"black"}}>Join Now</a></button>
             <motion.div
             initial={{right:'-1rem'}}
             whileInView={{right:'4rem'}}

@@ -31,9 +31,9 @@ const Plans = () => {
                         </div>
 
                         <div>
-                            <span>See more Benefits</span>
+                            <span>And more...</span>
                         </div>
-                        <button className="btn">Join</button>
+                        <button className="btn"><a clas href="#footer" style={{color:"black"}}>Join </a></button>
                     </div>
                 ))} 
             </div>
