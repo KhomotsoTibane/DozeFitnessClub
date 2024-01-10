@@ -16,9 +16,13 @@
   --orange: #f48915;
   --darkGrey: #464D53;
   --calorieCard: #656565;
-  --planCard: linear-gradient(210.41deg, #fa5042 1.14%, #ffa739 100.75%);
+  /* --planCard: linear-gradient(210.41deg, #fa5042 1.14%, #ffa739 100.75%); */
+  --planCard: linear-gradient(210deg, rgba(36,0,0,0.6000525210084033) 0%, rgba(49,170,61,1) 98%);
+  
   --appColor:  #3c3f45;
-
+  --green:#00B906;
+  --darkerGrey:#424242;
+  --lighterGrey:#F5F5F5;
   --transition: all 400ms ease;
 }
 
@@ -83,7 +87,7 @@ a{
 }
 
 .blur{
-  background-color: rgba(253, 120, 43, 0.69);
+  background-color: rgba(50, 253, 43, 0.171);
   position: absolute;
   border-radius: 50%;
   filter: blur(150px);

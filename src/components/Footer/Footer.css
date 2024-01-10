@@ -28,7 +28,7 @@ footer>hr{
     cursor: pointer;
 }
 .social-links>a>:hover{
-   color: var(--orange);
+   color: var(--green);
 }
 
 .footer-text>p{
@@ -40,7 +40,7 @@ footer>hr{
     height: 6rem;
     bottom:0;
     right: 20%;
-    background: red;
+    background: rgba(50, 253, 43, 0.171);
 }
 
 .blur-footer-2{
@@ -48,5 +48,5 @@ footer>hr{
     height: 6rem;
     bottom:0;
     left: 20%;
-    background: rgb(255, 115, 0);
+    background: rgba(50, 253, 43, 0.171);
 }

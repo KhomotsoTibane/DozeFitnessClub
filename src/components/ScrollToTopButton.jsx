@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 import { FaAngleDoubleUp } from "react-icons/fa";
 
 const ScrollToTopButton = () => {
@@ -15,14 +15,14 @@ const ScrollToTopButton = () => {
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: 'smooth'
+      behavior: "smooth",
     });
   };
 
   useEffect(() => {
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
@@ -31,20 +31,20 @@ const ScrollToTopButton = () => {
       id="scrollTopBtn"
       onClick={scrollToTop}
       style={{
-        display: isVisible ? 'block' : 'none',
-        position: 'fixed',
-        bottom: '20px',
-        right: '20px',
-        backgroundColor: '#f48915',
-        color: '#fff',
-        border: 'none',
-        borderRadius: '5px',
-        padding: '10px 15px',
-        cursor: 'pointer',
-        zIndex: '999', 
+        display: isVisible ? "block" : "none",
+        position: "fixed",
+        bottom: "20px",
+        right: "20px",
+        backgroundColor: "#008000",
+        color: "#fff",
+        border: "none",
+        borderRadius: "5px",
+        padding: "10px 15px",
+        cursor: "pointer",
+        zIndex: "999",
       }}
     >
-     <FaAngleDoubleUp />
+      <FaAngleDoubleUp />
     </button>
   );
 };

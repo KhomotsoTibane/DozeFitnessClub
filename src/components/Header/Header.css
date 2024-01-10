@@ -4,9 +4,16 @@ header{
 }
 
 .logo{
-    width: 8rem;
-    height: 8rem;
-    object-fit: cover;
+ font-size: 1.5rem;
+ font-weight: bold;
+}
+
+.logo-top{
+color:green
+}
+
+.logo-bottom{
+ margin-left: 7.5rem;
 }
 
 .header-links{
@@ -16,7 +23,7 @@ header{
 }
 
 .header-links >li>a:hover  {
-    color: var(--orange);
+    color: var(--green);
     cursor: pointer;
 }
 

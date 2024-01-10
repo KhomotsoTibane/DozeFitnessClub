@@ -14,7 +14,7 @@
 .hero-right{
     position: relative;
     flex:1;
-    background: var(--orange);
+    /* background: var(--orange); */
 }
 
 .ad{
@@ -37,7 +37,7 @@
 
 .ad>div{
     position: absolute;
-    background: var(--orange);
+    background: var(--green);
     width: 5.4rem;
     height: 80%;
     left:8px;
@@ -91,7 +91,7 @@
 
 .hero-buttons>:nth-child(1){
     color: white;
-    background: var(--orange);
+    background: var(--green);
     width: 8rem;
 }
 
@@ -99,7 +99,7 @@
     color: white;
     background: transparent;
     width: 8rem;
-    border: 2px solid var(--orange);
+    border: 2px solid var(--green);
 }
 
 .hero-right > .btn{

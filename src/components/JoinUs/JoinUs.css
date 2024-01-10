@@ -19,7 +19,7 @@ section{
 .joinUs-left>hr{
     position: absolute;
     width: 10.5rem;
-    border: 2px solid var(--orange);
+    border: 2px solid var(--green);
     border-radius: 20%;
     margin: -10px 0;
 }
@@ -50,7 +50,7 @@ section{
 }
 
 .btn-join{
-    background-color:var(--orange);
+    background-color:var(--green);
     color: white;
 }
 

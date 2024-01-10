@@ -14,7 +14,7 @@
 }
 
 .testimonials-left>:nth-child(1){
-    color: var(--orange);
+    color: var(--green);
     font-weight: bold;
 }
 
@@ -46,7 +46,7 @@
     position: absolute;
     width: 17rem;
     height: 20rem;
-    border: 2px solid var(--orange);
+    border: 2px solid var(--green);
     background: transparent;
     right: 9rem;
     top:0.9rem;

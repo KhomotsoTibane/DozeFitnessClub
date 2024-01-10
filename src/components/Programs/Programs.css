@@ -1,7 +1,7 @@
 .programs{
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 3rem;
     padding: 0 2rem;
 }
 
@@ -18,7 +18,8 @@
 
 .program-categories{
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
+    justify-content: center;
 }
 
 .category{
